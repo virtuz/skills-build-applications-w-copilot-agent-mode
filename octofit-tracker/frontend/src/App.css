@@ -1,0 +1,117 @@
+
+.App {
+  text-align: center;
+  background: linear-gradient(135deg, #e0eafc 0%, #cfdef3 100%);
+  min-height: 100vh;
+  color: #22223b;
+}
+
+
+.App-logo {
+  height: 60px;
+  width: auto;
+  pointer-events: none;
+  margin-right: 16px;
+  vertical-align: middle;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+
+.App-header {
+  background: linear-gradient(90deg, #4e54c8 0%, #8f94fb 100%);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #fff;
+}
+
+
+.App-link, .navbar .nav-link, .navbar-brand {
+  color: #4e54c8 !important;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+.App-link:hover, .navbar .nav-link:hover, .navbar-brand:hover {
+  color: #8f94fb !important;
+  text-decoration: underline;
+}
+
+.navbar {
+  background: linear-gradient(90deg, #4e54c8 0%, #8f94fb 100%) !important;
+  box-shadow: 0 2px 8px rgba(78,84,200,0.08);
+}
+.navbar .navbar-brand {
+  color: #fff !important;
+  font-size: 1.7rem;
+  font-weight: bold;
+}
+.navbar .nav-link.active {
+  color: #fff !important;
+  background: #4e54c8;
+  border-radius: 0.25rem;
+}
+
+table {
+  background: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(78,84,200,0.06);
+}
+th {
+  background: #8f94fb !important;
+  color: #fff !important;
+}
+tr:nth-child(even) {
+  background: #f3f6fd;
+}
+tr:hover {
+  background: #e0eafc;
+}
+
+.btn, .btn-primary {
+  background: linear-gradient(90deg, #4e54c8 0%, #8f94fb 100%);
+  border: none;
+  color: #fff;
+  font-weight: 500;
+  box-shadow: 0 2px 8px rgba(78,84,200,0.08);
+  transition: background 0.2s;
+}
+.btn:hover, .btn-primary:hover {
+  background: linear-gradient(90deg, #8f94fb 0%, #4e54c8 100%);
+  color: #fff;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #4e54c8;
+  font-weight: bold;
+}
+
+.card {
+  border-radius: 1rem;
+  box-shadow: 0 2px 8px rgba(78,84,200,0.08);
+  border: none;
+}
+.card-title {
+  color: #4e54c8;
+}
+
+body {
+  background: linear-gradient(135deg, #e0eafc 0%, #cfdef3 100%);
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
